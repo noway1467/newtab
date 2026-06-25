@@ -15,7 +15,7 @@
     "https://*/*"
   ],
   "icons": {
-    "256": "icon256.png"
+    "256": "icon.png"
   },
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'"
