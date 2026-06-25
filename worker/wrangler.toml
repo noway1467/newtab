@@ -1,0 +1,9 @@
+name = "newtab-webdav-proxy"
+main = "src/worker.js"
+compatibility_date = "2024-06-20"
+
+# 可选安全配置，部署后用 wrangler secret/vars 设置：
+# PROXY_TOKEN             访问令牌；设置后中转地址需要带 ?token=你的令牌
+# ALLOWED_WEBDAV_HOSTS   允许转发的 WebDAV 域名，逗号分隔，例如 dav.jianguoyun.com,webdav.example.com
+# ALLOWED_ORIGINS        允许调用的页面来源，逗号分隔；不设置则允许任意来源
+# MAX_BODY_BYTES         可选请求体上限，按字节计算
